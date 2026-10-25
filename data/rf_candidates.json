@@ -1,0 +1,1552 @@
+{
+  "trithis-workspace/welding-defects-7zoqs": {
+    "name": "WELDING DEFECTS",
+    "type": "object-detection",
+    "images": 682,
+    "license": "Public Domain",
+    "classes": {
+      "Undercut": 224,
+      "Porosity": 554,
+      "Spatter": 1463
+    },
+    "versions": [
+      {
+        "id": "trithis-workspace/welding-defects-7zoqs/5",
+        "images": 1639,
+        "splits": {
+          "valid": 68,
+          "test": 137,
+          "train": 1434
+        },
+        "exports": [
+          "coco",
+          "yolov11",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "trithis-workspace/welding-defects-7zoqs/4",
+        "images": 1539,
+        "splits": {
+          "valid": 64,
+          "test": 128,
+          "train": 1347
+        },
+        "exports": [
+          "yolov11"
+        ]
+      },
+      {
+        "id": "trithis-workspace/welding-defects-7zoqs/3",
+        "images": 1543,
+        "splits": {
+          "valid": 64,
+          "test": 126,
+          "train": 1353
+        },
+        "exports": [
+          "yolov11"
+        ]
+      },
+      {
+        "id": "trithis-workspace/welding-defects-7zoqs/2",
+        "images": 1680,
+        "splits": {
+          "valid": 67,
+          "test": 140,
+          "train": 1473
+        },
+        "exports": [
+          "yolov11",
+          "yolov12",
+          "yolov5pytorch"
+        ]
+      },
+      {
+        "id": "trithis-workspace/welding-defects-7zoqs/1",
+        "images": 2006,
+        "splits": {
+          "valid": 84,
+          "test": 167,
+          "train": 1755
+        },
+        "exports": [
+          "coco",
+          "yolov11"
+        ]
+      }
+    ]
+  },
+  "welddefectdetection/welddefectdetection-k1boe": {
+    "name": "WeldDefectDetection",
+    "type": "object-detection",
+    "images": 33,
+    "license": "CC BY 4.0",
+    "classes": {
+      "undercut": 15,
+      "burn-through": 16,
+      "porosity": 17,
+      "overlap": 14,
+      "spatter": 77,
+      "crack": 9
+    },
+    "versions": [
+      {
+        "id": "welddefectdetection/welddefectdetection-k1boe/1",
+        "images": 79,
+        "splits": {
+          "valid": 6,
+          "test": 4,
+          "train": 69
+        },
+        "exports": [
+          "coco",
+          "yolov11",
+          "yolov8"
+        ]
+      }
+    ]
+  },
+  "weldingdefects-yfhj4/weld-defects-kcocu": {
+    "name": "weld-defects",
+    "type": "instance-segmentation",
+    "images": 9877,
+    "license": "CC BY 4.0",
+    "classes": {
+      "Excess Reinforcement": 13554,
+      "Spatters": 134963,
+      "Crack": 4410,
+      "Porosity": 65786
+    },
+    "versions": [
+      {
+        "id": "weldingdefects-yfhj4/weld-defects-kcocu/2",
+        "images": 9877,
+        "splits": {
+          "valid": 1967,
+          "test": 999,
+          "train": 6911
+        },
+        "exports": [
+          "coco",
+          "coco-segmentation",
+          "multiclass",
+          "voc",
+          "yolo26",
+          "yolov11",
+          "yolov12",
+          "yolov5pytorch",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "weldingdefects-yfhj4/weld-defects-kcocu/1",
+        "images": 9877,
+        "splits": {
+          "valid": 1945,
+          "test": 1064,
+          "train": 6868
+        },
+        "exports": [
+          "coco",
+          "coco-segmentation",
+          "voc",
+          "yolo26",
+          "yolov11",
+          "yolov5-obb",
+          "yolov8"
+        ]
+      }
+    ]
+  },
+  "welding-qdnjc/new-rflct": {
+    "name": "new",
+    "type": "object-detection",
+    "images": 27,
+    "license": "CC BY 4.0",
+    "classes": {
+      "porosity": 122,
+      "crack": 166,
+      "undercut": 40,
+      "UNDERCUT": 60
+    },
+    "versions": [
+      {
+        "id": "welding-qdnjc/new-rflct/1",
+        "images": 69,
+        "splits": {
+          "valid": 4,
+          "test": 2,
+          "train": 63
+        },
+        "exports": [
+          "coco"
+        ]
+      }
+    ]
+  },
+  "welding-qdnjc/m-swo6d": {
+    "name": "m",
+    "type": "object-detection",
+    "images": 252,
+    "license": "CC BY 4.0",
+    "classes": {
+      "undercut": 66,
+      "porosity": 122,
+      "crack": 166
+    },
+    "versions": [
+      {
+        "id": "welding-qdnjc/m-swo6d/1",
+        "images": 630,
+        "splits": {
+          "valid": 24,
+          "test": 13,
+          "train": 593
+        },
+        "exports": [
+          "coco",
+          "yolov8"
+        ]
+      }
+    ]
+  },
+  "weld-qwzyj/welding-defects-detection": {
+    "name": "Welding Defects Detection",
+    "type": "object-detection",
+    "images": 560,
+    "license": "CC BY 4.0",
+    "classes": {
+      "spatter": 81,
+      "porosity": 1448,
+      "crack": 1143
+    },
+    "versions": [
+      {
+        "id": "weld-qwzyj/welding-defects-detection/7",
+        "images": 1462,
+        "splits": {
+          "test": 112,
+          "train": 1350
+        },
+        "exports": [
+          "clip",
+          "coco",
+          "multiclass",
+          "tensorflow",
+          "yolo26",
+          "yolov11",
+          "yolov5pytorch",
+          "yolov7pytorch",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "weld-qwzyj/welding-defects-detection/6",
+        "images": 1462,
+        "splits": {
+          "test": 112,
+          "train": 1350
+        },
+        "exports": [
+          "yolov5pytorch",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "weld-qwzyj/welding-defects-detection/5",
+        "images": 1644,
+        "splits": {
+          "test": 21,
+          "train": 1623
+        },
+        "exports": [
+          "yolov5pytorch"
+        ]
+      },
+      {
+        "id": "weld-qwzyj/welding-defects-detection/4",
+        "images": 1644,
+        "splits": {
+          "test": 21,
+          "train": 1623
+        },
+        "exports": [
+          "yolov5pytorch",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "weld-qwzyj/welding-defects-detection/3",
+        "images": 1644,
+        "splits": {
+          "test": 21,
+          "train": 1623
+        },
+        "exports": [
+          "coco",
+          "yolov5pytorch"
+        ]
+      },
+      {
+        "id": "weld-qwzyj/welding-defects-detection/2",
+        "images": 1644,
+        "splits": {
+          "test": 21,
+          "train": 1623
+        },
+        "exports": [
+          "yolov5pytorch",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "weld-qwzyj/welding-defects-detection/1",
+        "images": 1604,
+        "splits": {
+          "test": 21,
+          "train": 1583
+        },
+        "exports": [
+          "coco",
+          "yolov5pytorch",
+          "yolov8"
+        ]
+      }
+    ]
+  },
+  "workspace-028eb/weld-defect-do7dy": {
+    "name": "weld-defect",
+    "type": "instance-segmentation",
+    "images": 3360,
+    "license": "BY-NC-SA 4.0",
+    "classes": {
+      "crack": 2305,
+      "porosity": 5892,
+      "spatters": 6666
+    },
+    "versions": [
+      {
+        "id": "workspace-028eb/weld-defect-do7dy/5",
+        "images": 3360,
+        "splits": {
+          "train": 3360
+        },
+        "exports": [
+          "coco",
+          "coco-segmentation",
+          "yolov11"
+        ]
+      },
+      {
+        "id": "workspace-028eb/weld-defect-do7dy/4",
+        "images": 12768,
+        "splits": {
+          "valid": 672,
+          "test": 336,
+          "train": 11760
+        },
+        "exports": []
+      },
+      {
+        "id": "workspace-028eb/weld-defect-do7dy/3",
+        "images": 10416,
+        "splits": {
+          "valid": 672,
+          "test": 336,
+          "train": 9408
+        },
+        "exports": []
+      }
+    ]
+  },
+  "work-rwmly/welding-defect-final0-bdnbe": {
+    "name": "welding defect final0",
+    "type": "object-detection",
+    "images": 4958,
+    "license": "CC BY 4.0",
+    "classes": {
+      "crack": 1453,
+      "spatters": 5829,
+      "Non-fusion defect": 982,
+      "porosity": 2732,
+      "Geometric defect": 1844
+    },
+    "versions": [
+      {
+        "id": "work-rwmly/welding-defect-final0-bdnbe/3",
+        "images": 8985,
+        "splits": {
+          "test": 310,
+          "valid": 621,
+          "train": 8054
+        },
+        "exports": [
+          "coco",
+          "yolov11",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "work-rwmly/welding-defect-final0-bdnbe/1",
+        "images": 4958,
+        "splits": {
+          "test": 310,
+          "valid": 621,
+          "train": 4027
+        },
+        "exports": [
+          "coco",
+          "yolov8"
+        ]
+      }
+    ]
+  },
+  "mehak-laif/weld_defects_annotated-4csdz": {
+    "name": "weld_defects_annotated",
+    "type": "object-detection",
+    "images": 40,
+    "license": "CC BY 4.0",
+    "classes": {
+      "mechanical_damage": 4,
+      "incomplete root penetration": 1,
+      "Lack of Fusion": 2,
+      "Undercut": 12,
+      "burn-through": 2,
+      "Spatter": 192,
+      "Arc strike": 6,
+      "Porosity": 14,
+      "slag-inclusion": 10
+    },
+    "versions": []
+  },
+  "oran-ai/visual-weld-inspector": {
+    "name": "Visual Weld Inspector",
+    "type": "object-detection",
+    "images": 2281,
+    "license": "CC BY 4.0",
+    "classes": {
+      "Lack Of Fusion": 76,
+      "Unequal Leg": 199,
+      "Underfill": 285,
+      "Arc Strike": 261,
+      "Pin Hole": 96,
+      "Poor Stop Start": 203,
+      "Excess Metal": 121,
+      "Spatter": 347,
+      "Crater Pipe": 351
+    },
+    "versions": [
+      {
+        "id": "oran-ai/visual-weld-inspector/12",
+        "images": 2281,
+        "splits": {
+          "valid": 455,
+          "test": 228,
+          "train": 1598
+        },
+        "exports": [
+          "coco",
+          "yolov11",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "oran-ai/visual-weld-inspector/11",
+        "images": 2281,
+        "splits": {
+          "valid": 455,
+          "test": 228,
+          "train": 1598
+        },
+        "exports": [
+          "coco",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "oran-ai/visual-weld-inspector/10",
+        "images": 8673,
+        "splits": {
+          "valid": 455,
+          "test": 228,
+          "train": 7990
+        },
+        "exports": [
+          "coco",
+          "yolov5-obb",
+          "yolov5pytorch",
+          "yolov8",
+          "yolov8-obb"
+        ]
+      },
+      {
+        "id": "oran-ai/visual-weld-inspector/9",
+        "images": 8673,
+        "splits": {
+          "valid": 455,
+          "test": 228,
+          "train": 7990
+        },
+        "exports": [
+          "yolov5pytorch"
+        ]
+      },
+      {
+        "id": "oran-ai/visual-weld-inspector/7",
+        "images": 5477,
+        "splits": {
+          "valid": 455,
+          "test": 228,
+          "train": 4794
+        },
+        "exports": [
+          "yolov5pytorch"
+        ]
+      },
+      {
+        "id": "oran-ai/visual-weld-inspector/6",
+        "images": 3044,
+        "splits": {
+          "valid": 253,
+          "test": 127,
+          "train": 2664
+        },
+        "exports": [
+          "yolov5pytorch"
+        ]
+      },
+      {
+        "id": "oran-ai/visual-weld-inspector/5",
+        "images": 1851,
+        "splits": {
+          "valid": 154,
+          "test": 77,
+          "train": 1620
+        },
+        "exports": [
+          "yolov5pytorch"
+        ]
+      },
+      {
+        "id": "oran-ai/visual-weld-inspector/4",
+        "images": 1039,
+        "splits": {
+          "valid": 87,
+          "test": 43,
+          "train": 909
+        },
+        "exports": [
+          "yolov5pytorch"
+        ]
+      },
+      {
+        "id": "oran-ai/visual-weld-inspector/3",
+        "images": 847,
+        "splits": {
+          "valid": 71,
+          "test": 35,
+          "train": 741
+        },
+        "exports": []
+      },
+      {
+        "id": "oran-ai/visual-weld-inspector/2",
+        "images": 847,
+        "splits": {
+          "valid": 71,
+          "test": 35,
+          "train": 741
+        },
+        "exports": [
+          "yolov5pytorch"
+        ]
+      },
+      {
+        "id": "oran-ai/visual-weld-inspector/1",
+        "images": 69,
+        "splits": {
+          "valid": 6,
+          "test": 3,
+          "train": 60
+        },
+        "exports": [
+          "yolov5pytorch"
+        ]
+      }
+    ]
+  },
+  "underwater-s7ec9/weld_defect-qp9vc": {
+    "name": "weld_defect",
+    "type": "object-detection",
+    "images": 41,
+    "license": "CC BY 4.0",
+    "classes": {
+      "slag": 0,
+      "Excessof penetration": 3,
+      "lack of penetration": 8,
+      "lack of fusion": 17,
+      "Inclusion": 12,
+      "porosity": 25
+    },
+    "versions": [
+      {
+        "id": "underwater-s7ec9/weld_defect-qp9vc/8",
+        "images": 41,
+        "splits": {
+          "valid": 4,
+          "train": 37
+        },
+        "exports": [
+          "yolo26",
+          "yolov11"
+        ]
+      },
+      {
+        "id": "underwater-s7ec9/weld_defect-qp9vc/7",
+        "images": 48,
+        "splits": {
+          "valid": 4,
+          "train": 44
+        },
+        "exports": [
+          "yolov11"
+        ]
+      },
+      {
+        "id": "underwater-s7ec9/weld_defect-qp9vc/6",
+        "images": 48,
+        "splits": {
+          "valid": 4,
+          "train": 44
+        },
+        "exports": [
+          "yolov11"
+        ]
+      },
+      {
+        "id": "underwater-s7ec9/weld_defect-qp9vc/1",
+        "images": 5,
+        "splits": {
+          "train": 5
+        },
+        "exports": []
+      }
+    ]
+  },
+  "deepspace-9ajsj/my-first-project-ckca5": {
+    "name": "My First Project",
+    "type": "object-detection",
+    "images": 1089,
+    "license": "CC BY 4.0",
+    "classes": {
+      "Good Weld": 1439,
+      "Crack": 1,
+      "Burn Through": 1,
+      "Splatter": 1,
+      "Overlap": 8,
+      "Underfill": 5,
+      "Excess Reinforcement": 3,
+      "Bad Weld": 919,
+      "Defect": 1540,
+      "undercut": 3
+    },
+    "versions": [
+      {
+        "id": "deepspace-9ajsj/my-first-project-ckca5/1",
+        "images": 1088,
+        "splits": {
+          "valid": 176,
+          "test": 74,
+          "train": 838
+        },
+        "exports": [
+          "coco",
+          "yolo26",
+          "yolov11",
+          "yolov7pytorch",
+          "yolov8",
+          "yolov8-obb"
+        ]
+      }
+    ]
+  },
+  "space-be2wb/final-welding-dataset-qrz4x-cw6sq": {
+    "name": "FINAL WELDING DATASET ",
+    "type": "object-detection",
+    "images": 5012,
+    "license": "CC BY 4.0",
+    "classes": {
+      "Crack": 463,
+      "mechanical-damage": 32,
+      "Lack of Fusion": 628,
+      "Arc strike": 78,
+      "excess root penetration": 35,
+      "Undercut": 374,
+      "slag-inclusion": 159,
+      "Overlap": 223,
+      "root concvity": 18,
+      "Burn Through": 299,
+      "Irregular": 402,
+      "Excess-Reinforcement": 1331,
+      "cluster of porosity": 2179,
+      "Spatters": 33605,
+      "Porosity": 15265
+    },
+    "versions": [
+      {
+        "id": "space-be2wb/final-welding-dataset-qrz4x-cw6sq/3",
+        "images": 13346,
+        "splits": {
+          "valid": 615,
+          "test": 230,
+          "train": 12501
+        },
+        "exports": [
+          "coco",
+          "yolo26",
+          "yolov11",
+          "yolov5pytorch",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "space-be2wb/final-welding-dataset-qrz4x-cw6sq/2",
+        "images": 13346,
+        "splits": {
+          "valid": 615,
+          "test": 230,
+          "train": 12501
+        },
+        "exports": [
+          "yolov11"
+        ]
+      },
+      {
+        "id": "space-be2wb/final-welding-dataset-qrz4x-cw6sq/1",
+        "images": 13544,
+        "splits": {
+          "valid": 516,
+          "test": 230,
+          "train": 12798
+        },
+        "exports": [
+          "yolov11",
+          "yolov5pytorch"
+        ]
+      }
+    ]
+  },
+  "weld-defect-detection-onlal/weld-surface-defect-detection-884h9": {
+    "name": "Weld Surface Defect Detection",
+    "type": "object-detection",
+    "images": 7165,
+    "license": "CC BY 4.0",
+    "classes": {
+      "Contamination-CN": 1099,
+      "Lack of Fusion-LOF": 1073,
+      "Surface Crack-SC": 1055,
+      "Undercut-UC": 1020,
+      "Spatter-SR": 987,
+      "Normal Weld-NW": 929,
+      "Burn Through-BT": 1110
+    },
+    "versions": [
+      {
+        "id": "weld-defect-detection-onlal/weld-surface-defect-detection-884h9/3",
+        "images": 17195,
+        "splits": {
+          "valid": 1435,
+          "test": 715,
+          "train": 15045
+        },
+        "exports": [
+          "coco",
+          "yolo26",
+          "yolov11",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "weld-defect-detection-onlal/weld-surface-defect-detection-884h9/2",
+        "images": 17195,
+        "splits": {
+          "valid": 1435,
+          "test": 715,
+          "train": 15045
+        },
+        "exports": [
+          "coco",
+          "coco-mmdetection",
+          "multiclass",
+          "tensorflow",
+          "yolo26",
+          "yolov11",
+          "yolov12",
+          "yolov5pytorch",
+          "yolov7pytorch",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "weld-defect-detection-onlal/weld-surface-defect-detection-884h9/1",
+        "images": 17195,
+        "splits": {
+          "valid": 1435,
+          "test": 715,
+          "train": 15045
+        },
+        "exports": [
+          "coco",
+          "coco-mmdetection",
+          "multiclass",
+          "yolo26",
+          "yolov11",
+          "yolov8",
+          "yolov9"
+        ]
+      }
+    ]
+  },
+  "byungjun/weld-data": {
+    "name": "weld data",
+    "type": "object-detection",
+    "images": 558,
+    "license": "CC BY 4.0",
+    "classes": {
+      "crack": 206,
+      "root concavity": 15,
+      "excessive reinforcement": 34,
+      "porosity": 420,
+      "inadequate reinforcement": 2,
+      "tungsten inclusion": 21,
+      "undercut": 77,
+      "slag": 281,
+      "burn through": 4,
+      "incomplete fusion": 117,
+      "incomplete penetration": 22,
+      "Tungsten Inclusion": 1
+    },
+    "versions": [
+      {
+        "id": "byungjun/weld-data/1",
+        "images": 558,
+        "splits": {
+          "test": 112,
+          "train": 446
+        },
+        "exports": [
+          "coco",
+          "tensorflow",
+          "voc",
+          "yolo26",
+          "yolov12",
+          "yolov5pytorch",
+          "yolov7pytorch",
+          "yolov8",
+          "yolov8-obb"
+        ]
+      }
+    ]
+  },
+  "byungjun/weld-nenf5": {
+    "name": "weld",
+    "type": "object-detection",
+    "images": 516,
+    "license": "CC BY 4.0",
+    "classes": {
+      "pieces": 1,
+      "crack": 200,
+      "root concavity": 15,
+      "porosity": 411,
+      "tungsten inclusion": 14,
+      "undercut": 75,
+      "slag": 282,
+      "incomplete fusion": 115,
+      "incomplete penetration": 42,
+      "Tungsten Inclusion": 2
+    },
+    "versions": [
+      {
+        "id": "byungjun/weld-nenf5/1",
+        "images": 516,
+        "splits": {
+          "test": 103,
+          "train": 413
+        },
+        "exports": [
+          "coco",
+          "yolov5pytorch"
+        ]
+      }
+    ]
+  },
+  "delvin-9qaxw/weld-n1hel": {
+    "name": "Weld",
+    "type": "object-detection",
+    "images": 738,
+    "license": "CC BY 4.0",
+    "classes": {
+      "crack": 509,
+      "porosity": 3845,
+      "spatter": 2324
+    },
+    "versions": [
+      {
+        "id": "delvin-9qaxw/weld-n1hel/9",
+        "images": 1322,
+        "splits": {
+          "valid": 265,
+          "test": 181,
+          "train": 876
+        },
+        "exports": [
+          "coco",
+          "voc",
+          "yolov11",
+          "yolov5pytorch",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "delvin-9qaxw/weld-n1hel/8",
+        "images": 1704,
+        "splits": {
+          "valid": 146,
+          "test": 109,
+          "train": 1449
+        },
+        "exports": [
+          "yolov8"
+        ]
+      },
+      {
+        "id": "delvin-9qaxw/weld-n1hel/7",
+        "images": 738,
+        "splits": {
+          "valid": 186,
+          "test": 74,
+          "train": 478
+        },
+        "exports": [
+          "coco",
+          "yolov5pytorch",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "delvin-9qaxw/weld-n1hel/6",
+        "images": 1694,
+        "splits": {
+          "test": 74,
+          "valid": 186,
+          "train": 1434
+        },
+        "exports": [
+          "yolov11",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "delvin-9qaxw/weld-n1hel/5",
+        "images": 1694,
+        "splits": {
+          "test": 74,
+          "valid": 186,
+          "train": 1434
+        },
+        "exports": [
+          "yolov8"
+        ]
+      },
+      {
+        "id": "delvin-9qaxw/weld-n1hel/4",
+        "images": 738,
+        "splits": {
+          "valid": 186,
+          "test": 74,
+          "train": 478
+        },
+        "exports": [
+          "yolov11",
+          "yolov8",
+          "yolov9"
+        ]
+      },
+      {
+        "id": "delvin-9qaxw/weld-n1hel/3",
+        "images": 738,
+        "splits": {
+          "valid": 186,
+          "test": 74,
+          "train": 478
+        },
+        "exports": [
+          "tfrecord",
+          "yolov11",
+          "yolov8",
+          "yolov9"
+        ]
+      },
+      {
+        "id": "delvin-9qaxw/weld-n1hel/2",
+        "images": 738,
+        "splits": {
+          "valid": 186,
+          "test": 74,
+          "train": 478
+        },
+        "exports": [
+          "tfrecord",
+          "yolov11"
+        ]
+      },
+      {
+        "id": "delvin-9qaxw/weld-n1hel/1",
+        "images": 738,
+        "splits": {
+          "valid": 186,
+          "test": 74,
+          "train": 478
+        },
+        "exports": [
+          "coco",
+          "tfrecord",
+          "yolov11",
+          "yolov8",
+          "yolov9"
+        ]
+      }
+    ]
+  },
+  "weld-i5yt0/weld-quality-inspection-rei9l-gzxjs": {
+    "name": "Weld quality inspection",
+    "type": "object-detection",
+    "images": 3664,
+    "license": "CC BY 4.0",
+    "classes": {
+      "Bad Welding": 940,
+      "Excess Reinforcement": 3913,
+      "Good Welding": 1483,
+      "Spatters": 26892,
+      "Porosity": 10801,
+      "Crack": 861
+    },
+    "versions": []
+  },
+  "rongchiroi/raw_weld-pgks9": {
+    "name": "RAW_WELD",
+    "type": "instance-segmentation",
+    "images": 2285,
+    "license": "CC BY 4.0",
+    "classes": {
+      "Normal penetration": 599,
+      "Incomplete penetration": 1068,
+      "Over-penetration": 1030
+    },
+    "versions": [
+      {
+        "id": "rongchiroi/raw_weld-pgks9/5",
+        "images": 4932,
+        "splits": {
+          "valid": 333,
+          "test": 150,
+          "train": 4449
+        },
+        "exports": [
+          "coco-segmentation",
+          "yolov5pytorch"
+        ]
+      }
+    ]
+  },
+  "wonmu-huh/-8d9fj": {
+    "name": "프로젝트 병합",
+    "type": "object-detection",
+    "images": 9289,
+    "license": "CC BY 4.0",
+    "classes": {
+      "정상(Nomal)": 21618,
+      "오버랩(Overlap)": 680,
+      "용락(Melt down)": 92,
+      "미용접 구간(Non-welded Area)": 200,
+      "균열(Crack)": 9692,
+      "용접불량(Bad Welding)": 7534,
+      "융합불량(Lack of Fusion)": 4350,
+      "크레이터": 238,
+      "기공(Porosity)": 90236,
+      "과도한 용착금속(Excess Reinforcement)": 31304,
+      "언더컷(Undercut)": 1678,
+      "스패터(Spatters)": 215712,
+      "Bad Welding": 940,
+      "Excess Reinforcement": 3913,
+      "Good Welding": 1483,
+      "Spatters": 26892,
+      "Porosity": 10801,
+      "Crack": 861
+    },
+    "versions": []
+  },
+  "crack-fg7d9/weld-defect-detection-compiled-xpao4": {
+    "name": "weld defect detection compiled",
+    "type": "object-detection",
+    "images": 813,
+    "license": "CC BY 4.0",
+    "classes": {
+      "LOF": 117,
+      "root concavity": 15,
+      "excessive reinforcement": 34,
+      "inadequate reinforcement": 2,
+      "undercut": 77,
+      "burn through": 4,
+      "Tungsten Inclusion": 22,
+      "crack": 426,
+      "porosity": 966,
+      "slag": 1813,
+      "LOP": 166
+    },
+    "versions": [
+      {
+        "id": "crack-fg7d9/weld-defect-detection-compiled-xpao4/3",
+        "images": 1795,
+        "splits": {
+          "valid": 163,
+          "test": 152,
+          "train": 1480
+        },
+        "exports": [
+          "yolov5pytorch"
+        ]
+      },
+      {
+        "id": "crack-fg7d9/weld-defect-detection-compiled-xpao4/2",
+        "images": 1929,
+        "splits": {
+          "valid": 163,
+          "test": 81,
+          "train": 1685
+        },
+        "exports": []
+      },
+      {
+        "id": "crack-fg7d9/weld-defect-detection-compiled-xpao4/1",
+        "images": 813,
+        "splits": {
+          "valid": 163,
+          "test": 81,
+          "train": 569
+        },
+        "exports": [
+          "yolov5pytorch",
+          "yolov8-obb"
+        ]
+      }
+    ]
+  },
+  "sumithas-workspace/welding-defects-cgalk": {
+    "name": "Welding Defects",
+    "type": "object-detection",
+    "images": 2212,
+    "license": "CC BY 4.0",
+    "classes": {
+      "Good Welding": 221,
+      "Excess Reinforcement": 3957,
+      "Bad Welding": 891,
+      "Crack": 1492,
+      "Burn Through": 1,
+      "Porosity": 6554,
+      "Spatters": 18029
+    },
+    "versions": [
+      {
+        "id": "sumithas-workspace/welding-defects-cgalk/1",
+        "images": 2212,
+        "splits": {
+          "valid": 183,
+          "test": 89,
+          "train": 1940
+        },
+        "exports": [
+          "coco",
+          "yolo26",
+          "yolov5pytorch",
+          "yolov8"
+        ]
+      }
+    ]
+  },
+  "weldparts/welding_detect": {
+    "name": "welding_detect",
+    "type": "instance-segmentation",
+    "images": 182,
+    "license": "CC BY 4.0",
+    "classes": {
+      "objects": 0,
+      "through": 11,
+      "fake": 11,
+      "tumor": 16,
+      "unoverlapped": 13,
+      "deviation": 23,
+      "crack": 10,
+      "insufficient": 14,
+      "airhole": 24,
+      "depression": 14,
+      "wave": 19,
+      "hole": 17,
+      "biteedge": 32,
+      "collapse": 12
+    },
+    "versions": [
+      {
+        "id": "weldparts/welding_detect/5",
+        "images": 182,
+        "splits": {
+          "valid": 27,
+          "test": 16,
+          "train": 139
+        },
+        "exports": [
+          "yolov11",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "weldparts/welding_detect/4",
+        "images": 182,
+        "splits": {
+          "valid": 27,
+          "test": 16,
+          "train": 139
+        },
+        "exports": [
+          "yolov8"
+        ]
+      },
+      {
+        "id": "weldparts/welding_detect/3",
+        "images": 127,
+        "splits": {
+          "valid": 20,
+          "test": 13,
+          "train": 94
+        },
+        "exports": [
+          "yolov8"
+        ]
+      },
+      {
+        "id": "weldparts/welding_detect/2",
+        "images": 117,
+        "splits": {
+          "valid": 20,
+          "test": 13,
+          "train": 84
+        },
+        "exports": [
+          "yolov8"
+        ]
+      },
+      {
+        "id": "weldparts/welding_detect/1",
+        "images": 105,
+        "splits": {
+          "valid": 20,
+          "test": 13,
+          "train": 72
+        },
+        "exports": [
+          "yolov8"
+        ]
+      }
+    ]
+  },
+  "ai-vision-system/welding-defects-sxd9f": {
+    "name": "welding defects",
+    "type": "object-detection",
+    "images": 71,
+    "license": "CC BY 4.0",
+    "classes": {
+      "good_weld": 46,
+      "Porosity": 35,
+      "Undercut": 39,
+      "Spatter": 113
+    },
+    "versions": [
+      {
+        "id": "ai-vision-system/welding-defects-sxd9f/2",
+        "images": 71,
+        "splits": {
+          "valid": 4,
+          "test": 2,
+          "train": 65
+        },
+        "exports": [
+          "coco",
+          "yolov11"
+        ]
+      },
+      {
+        "id": "ai-vision-system/welding-defects-sxd9f/1",
+        "images": 13,
+        "splits": {
+          "valid": 3,
+          "test": 1,
+          "train": 9
+        },
+        "exports": [
+          "coco",
+          "yolov11"
+        ]
+      }
+    ]
+  },
+  "powder-deposition/welding-dsjwd": {
+    "name": "Welding",
+    "type": "object-detection",
+    "images": 0,
+    "license": "CC BY 4.0",
+    "classes": {
+      "Misalignement": 0,
+      "Lack of penetration": 1,
+      "Good weld": 696,
+      "Contamination burn": 716,
+      "Lack of fusion": 101
+    },
+    "versions": []
+  },
+  "weld-tk71z/weld51": {
+    "name": "weld51",
+    "type": "object-detection",
+    "images": 51,
+    "license": "CC BY 4.0",
+    "classes": {
+      "porosity": 27,
+      "spatter": 308,
+      "undercut": 93
+    },
+    "versions": [
+      {
+        "id": "weld-tk71z/weld51/3",
+        "images": 51,
+        "splits": {
+          "train": 51
+        },
+        "exports": [
+          "coco",
+          "voc"
+        ]
+      },
+      {
+        "id": "weld-tk71z/weld51/2",
+        "images": 51,
+        "splits": {
+          "valid": 1,
+          "test": 9,
+          "train": 41
+        },
+        "exports": [
+          "coco",
+          "voc"
+        ]
+      },
+      {
+        "id": "weld-tk71z/weld51/1",
+        "images": 51,
+        "splits": {
+          "valid": 1,
+          "test": 9,
+          "train": 41
+        },
+        "exports": [
+          "coco",
+          "voc"
+        ]
+      }
+    ]
+  },
+  "weld-tk71z/preprocessing-sz7wk": {
+    "name": "preprocessing",
+    "type": "object-detection",
+    "images": 71,
+    "license": "CC BY 4.0",
+    "classes": {
+      "slag inclusion": 94,
+      "spatter": 337,
+      "undercut": 123
+    },
+    "versions": [
+      {
+        "id": "weld-tk71z/preprocessing-sz7wk/3",
+        "images": 71,
+        "splits": {
+          "train": 71
+        },
+        "exports": []
+      },
+      {
+        "id": "weld-tk71z/preprocessing-sz7wk/2",
+        "images": 1775,
+        "splits": {
+          "train": 1775
+        },
+        "exports": []
+      },
+      {
+        "id": "weld-tk71z/preprocessing-sz7wk/1",
+        "images": 448,
+        "splits": {
+          "train": 448
+        },
+        "exports": [
+          "coco"
+        ]
+      }
+    ]
+  },
+  "mubessirul-ummah/afteraugmentasiwelddefect": {
+    "name": "AfterAugmentasiWeldDefect",
+    "type": "object-detection",
+    "images": 358,
+    "license": "CC BY 4.0",
+    "classes": {
+      "spatter": 346,
+      "undercut": 136,
+      "slag inclusion": 106
+    },
+    "versions": [
+      {
+        "id": "mubessirul-ummah/afteraugmentasiwelddefect/1",
+        "images": 1074,
+        "splits": {
+          "train": 1074
+        },
+        "exports": [
+          "coco",
+          "yolov8"
+        ]
+      }
+    ]
+  },
+  "thas/weld-qr87r": {
+    "name": "weld",
+    "type": "semantic-segmentation",
+    "images": 3516,
+    "license": "CC BY 4.0",
+    "classes": {
+      "Bad Welding": 894,
+      "Excess Reinforcement": 3909,
+      "Good Welding": 1453,
+      "Crack": 843,
+      "Porosity": 10413,
+      "Spatters": 26840
+    },
+    "versions": [
+      {
+        "id": "thas/weld-qr87r/3",
+        "images": 3516,
+        "splits": {
+          "valid": 692,
+          "test": 355,
+          "train": 2469
+        },
+        "exports": [
+          "coco-segmentation",
+          "png-mask-semantic"
+        ]
+      },
+      {
+        "id": "thas/weld-qr87r/1",
+        "images": 3514,
+        "splits": {
+          "valid": 698,
+          "test": 346,
+          "train": 2470
+        },
+        "exports": [
+          "coco-segmentation",
+          "png-mask-semantic"
+        ]
+      }
+    ]
+  },
+  "ben-rpimh/weld-4qosh": {
+    "name": "weld",
+    "type": "object-detection",
+    "images": 1374,
+    "license": "CC BY 4.0",
+    "classes": {
+      "Good Welding": 221,
+      "Crack": 357,
+      "Bad Welding": 157,
+      "Excess Reinforcement": 2655,
+      "Spatters": 17965,
+      "Porosity": 6545
+    },
+    "versions": [
+      {
+        "id": "ben-rpimh/weld-4qosh/1",
+        "images": 2962,
+        "splits": {
+          "valid": 191,
+          "test": 84,
+          "train": 2687
+        },
+        "exports": [
+          "coco",
+          "coco-mmdetection",
+          "createml",
+          "tfrecord",
+          "voc",
+          "yolo26",
+          "yolov11",
+          "yolov5pytorch",
+          "yolov8"
+        ]
+      }
+    ]
+  },
+  "dewinter-xhwvb/weld-segmentation-6gugv": {
+    "name": "weld-segmentation",
+    "type": "instance-segmentation",
+    "images": 8,
+    "license": "CC BY 4.0",
+    "classes": {
+      "weld": 8
+    },
+    "versions": [
+      {
+        "id": "dewinter-xhwvb/weld-segmentation-6gugv/2",
+        "images": 20,
+        "splits": {
+          "valid": 1,
+          "test": 1,
+          "train": 18
+        },
+        "exports": [
+          "coco-segmentation",
+          "yolov8"
+        ]
+      },
+      {
+        "id": "dewinter-xhwvb/weld-segmentation-6gugv/1",
+        "images": 8,
+        "splits": {
+          "valid": 1,
+          "test": 1,
+          "train": 6
+        },
+        "exports": []
+      }
+    ]
+  },
+  "kuk-won-ko/weld-knhob": {
+    "name": "weld",
+    "type": "instance-segmentation",
+    "images": 150,
+    "license": "CC BY 4.0",
+    "classes": {
+      "weld": 153
+    },
+    "versions": []
+  }
+}

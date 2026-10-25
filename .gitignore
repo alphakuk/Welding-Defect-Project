@@ -1,0 +1,24 @@
+# 가상환경
+.venv/
+.venv_old_broken/
+__pycache__/
+*.pyc
+
+# 대용량 데이터·학습 산출물
+datasets/*
+!datasets/README.md
+data/raw/
+colab/
+results.zip
+runs/
+outputs/
+*.log
+models/yolo11n.pt
+models/yolo11s.pt
+
+# 용접결함과 무관한 폴더
+corrosion_data/
+spark_detect/
+
+# 로컬 설정
+.claude/

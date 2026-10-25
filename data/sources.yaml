@@ -1,0 +1,151 @@
+# Roboflow Universe 소스 -> 9개 결함 클래스 매핑 (null = 제외)
+# 클래스: incomplete_penetration crack undercut underfill arc_strike porosity blowhole spatter overlap
+# 희소 클래스 소스를 앞에 둔다 (max_images_per_class 상한은 앞 소스부터 채워짐, 원본 기준)
+# keep_aug(기본 true): Roboflow 증강 사본을 train에 모두 사용. val/test는 원본 1장만
+
+max_images_per_class: 1500
+# train에서 이미지가 이 수보다 적은 결함은 해당 사진을 반복 사용 (최대 배수)
+oversample_min_images: 600
+oversample_max_factor: 6
+
+sources:
+  - slug: oran-ai/visual-weld-inspector
+    version: 12
+    class_map:
+      Underfill: underfill
+      Arc Strike: arc_strike
+      Pin Hole: blowhole        # 비드 표면의 작은 가스 구멍 = 블로홀 정의
+      Spatter: spatter
+      Lack Of Fusion: null
+      Unequal Leg: null
+      Poor Stop Start: null
+      Excess Metal: null
+      Crater Pipe: null
+
+  # 용입부족: 외관 사진 소스가 없어 X-ray 투과 사진을 사용 (용입부족 라벨만 사용, 나머지 제외)
+  - slug: byungjun/weld-nenf5
+    version: 1
+    class_map:
+      incomplete penetration: incomplete_penetration
+      crack: null
+      incomplete fusion: null
+      pieces: null
+      porosity: null
+      root concavity: null
+      slag: null
+      tungsten inclusion: null
+      Tungsten Inclusion: null
+      undercut: null
+
+  - slug: byungjun/weld-data
+    version: 1
+    class_map:
+      incomplete penetration: incomplete_penetration
+      crack: null
+      root concavity: null
+      excessive reinforcement: null
+      porosity: null
+      inadequate reinforcement: null
+      tungsten inclusion: null
+      Tungsten Inclusion: null
+      undercut: null
+      slag: null
+      burn through: null
+      incomplete fusion: null
+
+  - slug: crack-fg7d9/weld-defect-detection-compiled-xpao4
+    version: 1
+    class_map:
+      LOP: incomplete_penetration
+      LOF: null
+      root concavity: null
+      excessive reinforcement: null
+      inadequate reinforcement: null
+      undercut: null
+      burn through: null
+      Tungsten Inclusion: null
+      crack: null
+      porosity: null
+      slag: null
+
+  - slug: weldparts/welding_detect
+    version: 5
+    class_map:
+      biteedge: undercut        # 咬边
+      tumor: overlap            # 焊瘤
+      insufficient: underfill   # 未焊满
+      airhole: porosity         # 气孔
+      crack: crack
+      objects: null
+      through: null
+      fake: null
+      unoverlapped: null
+      deviation: null
+      depression: null
+      wave: null
+      hole: null
+      collapse: null
+
+  - slug: space-be2wb/final-welding-dataset-qrz4x-cw6sq
+    version: 3
+    class_map:
+      Crack: crack
+      Arc strike: arc_strike
+      Undercut: undercut
+      Overlap: overlap
+      Porosity: porosity
+      cluster of porosity: porosity
+      Spatters: spatter
+      mechanical-damage: null
+      Lack of Fusion: null
+      excess root penetration: null
+      slag-inclusion: null
+      root concvity: null
+      Burn Through: null
+      Irregular: null
+      Excess-Reinforcement: null
+
+  - slug: welddefectdetection/welddefectdetection-k1boe
+    version: 1
+    class_map:
+      undercut: undercut
+      porosity: porosity
+      overlap: overlap
+      spatter: spatter
+      crack: crack
+      burn-through: null
+
+  - slug: weld-defect-detection-onlal/weld-surface-defect-detection-884h9
+    version: 3
+    class_map:
+      Surface Crack-SC: crack
+      Undercut-UC: undercut
+      Spatter-SR: spatter
+      Contamination-CN: null
+      Lack of Fusion-LOF: null
+      Normal Weld-NW: null
+      Burn Through-BT: null
+
+  # 제외 (2026-10-17 검수):
+  #   weld-tk71z/weld51 v3 - 라벨 박스가 결함 위치와 어긋남 (언더컷이 모재를 가로지름)
+  #   mubessirul-ummah/afteraugmentasiwelddefect v1 - 과도한 확대/회전 증강 사본뿐, 알아보기 어려움
+
+  - slug: welding-qdnjc/m-swo6d
+    version: 1
+    class_map: {undercut: undercut, porosity: porosity, crack: crack}
+
+  - slug: ai-vision-system/welding-defects-sxd9f
+    version: 2
+    class_map: {Porosity: porosity, Undercut: undercut, Spatter: spatter, good_weld: null}
+
+  - slug: trithis-workspace/welding-defects-7zoqs
+    version: 5
+    class_map: {Undercut: undercut, Porosity: porosity, Spatter: spatter}
+
+  - slug: weld-qwzyj/welding-defects-detection
+    version: 7
+    class_map: {spatter: spatter, porosity: porosity, crack: crack}
+
+  - slug: delvin-9qaxw/weld-n1hel
+    version: 7
+    class_map: {crack: crack, porosity: porosity, spatter: spatter}
