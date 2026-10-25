@@ -1,0 +1,9 @@
+ultralytics>=8.4
+torch>=2.5
+torchvision>=0.20
+numpy
+matplotlib
+pillow
+pyyaml
+requests
+python-pptx
